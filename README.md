@@ -31,7 +31,7 @@ https://jobsnett.netlify.app/
 
 ## API REST
 
-A api foi construída utilizando Express e MongoDB.
+A api foi construída utilizando NodeJS, Express e MongoDB.
 Também contamos com uma ferramenta de documentação de APIS, o Swagger.
 
 Confira mais sobre a nossa API:
