@@ -1,0 +1,209 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is an API to connect professionals looking for new job opportunities. You can visit our website [https://jobsnett.netlify.app].",
+    "version": "1.0.0",
+    "title": "JobsNET API",
+    "contact": {
+      "email": "ygorverde572@gmail.com"
+    }
+  },
+  "host": "jobsnetapi.herokuapp.com",
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "Forms",
+      "description": "Candidate Forms"
+    }
+  ],
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/form": {
+      "post": {
+        "tags": [
+          "Forms"
+        ],
+        "summary": "Add a new form",
+        "description": "Insert a new form into database",
+        "operationId": "addForm",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Form object that needs to be added to the database",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Form"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Formulário enviado com sucesso! :)"
+          },
+          "400": {
+            "description": "CPF ou E-mail já cadastrado!"
+          },
+          "500": {
+            "description": "Internal Server Error!"
+          }
+        }
+      }
+    },
+    "/form/count": {
+      "get": {
+        "tags": [
+          "Forms"
+        ],
+        "summary": "Returns number of forms",
+        "description": "Returns how many forms are in the DB.",
+        "operationId": "getCountForms",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Forms count returned successfully!",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "count": {
+                  "type": "integer"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error."
+          }
+        }
+      }
+    },
+    "/form/{candidateCPF}": {
+      "get": {
+        "tags": [
+          "Forms"
+        ],
+        "summary": "Finds form by CPF",
+        "description": "Returns a form",
+        "operationId": "findFormByCPF",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "candidateCPF",
+            "in": "path",
+            "description": "Returns a form",
+            "required": true,
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Form returned successfully!",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Form"
+              }
+            }
+          },
+          "404": {
+            "description": "Form not found."
+          },
+          "500": {
+            "description": "Internal Server Error."
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Form": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "profession": {
+          "type": "string"
+        },
+        "birthDate": {
+          "type": "string"
+        },
+        "maritalStatus": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "address": {
+          "$ref": "#/definitions/Address"
+        },
+        "documents": {
+          "$ref": "#/definitions/Documents"
+        }
+      }
+    },
+    "Address": {
+      "type": "object",
+      "properties": {
+        "cep": {
+          "type": "string"
+        },
+        "street": {
+          "type": "string"
+        },
+        "neighborhood": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "uf": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "Address"
+      }
+    },
+    "Documents": {
+      "type": "object",
+      "properties": {
+        "rg": {
+          "type": "string"
+        },
+        "cpf": {
+          "type": "string"
+        },
+        "vehicle": {
+          "type": "string"
+        },
+        "cnh": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "externalDocs": {
+    "description": "GitHub repository",
+    "url": "https://github.com/ygorverde/JobsNET-server"
+  }
+}

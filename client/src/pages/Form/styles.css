@@ -1,0 +1,93 @@
+#page-form {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#page-form a {
+    padding-bottom: 20px;
+    display: flex;
+    align-self: flex-end;
+    color: var(--title-color);
+    font-weight: bold;  
+}
+
+#page-form a span{
+        margin-right: 16px;
+        background-image: url('../assets/../../assets/images/arrow-left.svg');
+    
+        display: flex;
+        width: 20px;
+        height: 24px;
+}
+
+form {
+    background-color: white;
+    margin: 0 auto;
+    padding: 64px;
+    border-radius: 8px;
+    max-width: 730px;
+    margin-bottom: 34px;
+}
+
+form h1 {
+    font-size: 30px;
+}
+
+form fieldset {
+    margin-top: 30px;
+    border: 0;
+}
+
+form legend {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+form legend :last-child {
+    margin-top: 20px;
+}
+
+form legend h2  {
+    font-size: 20px;
+}
+
+
+.form-row input, .form-row select {
+    /* background-color: #f0f0f5; */
+    background-color: rgb(253, 251, 251);
+    border-radius: 8px;
+}
+
+hr {
+    margin-top: .5rem;
+}
+
+#submitButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px 17px;
+    cursor: pointer;
+    width: 50%;
+    height: 50px;
+    text-decoration: none;
+    background: var(--primary-color);
+    outline: none;
+}
+
+#submitButton strong {
+    color: white;
+    font-size: 16px;
+}
+
+#submitButton:hover {
+    background-color: #2fb86e;
+}

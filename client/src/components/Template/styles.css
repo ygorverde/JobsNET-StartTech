@@ -1,0 +1,33 @@
+#template {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#template header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 100px;
+}
+
+#template header :first-child{
+    display: flex;
+    align-items: center;
+}
+
+#template header strong {
+    color: var(--title-color);
+    letter-spacing: .7rem;
+}
+
+#template header img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#template main {
+    width: 100%;
+    height: 100%;
+}
