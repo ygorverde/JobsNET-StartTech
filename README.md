@@ -40,6 +40,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [ReactJS](https://expressjs.com/ "Express")
 - [Express](https://expo.io/tools#cli "Expo-Cli")
 - [MongoDB](https://reactjs.org/ "React")
+- [Swagger](https://reactjs.org/ "React")
 - [Typescript](https://www.typescriptlang.org/ "Typescript")
 
 ------------
