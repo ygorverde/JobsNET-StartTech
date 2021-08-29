@@ -7,7 +7,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/count/ygorverde/JobsNET-StartTech) 
 ![GitHub top language](https://img.shields.io/github/languages/top/ygorverde/JobsNET-StartTech) ![GitHub last commit](https://img.shields.io/github/last-commit/ygorverde/JobsNET-StartTech) ![GitHub repo size](https://img.shields.io/github/repo-size/ygorverde/JobsNET-StartTech)
 
-<h2>:computer: WEB</h2>
+<h2>:computer: WEB </h2>
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45312912/131263621-a0706e94-9695-414e-aec2-f9871652253e.png" alt="PRs welcome!" />
@@ -22,6 +22,10 @@
 <img src="https://user-images.githubusercontent.com/45312912/131263796-c28510d6-16e0-4713-8a9e-2789594d2ebc.png" width=100% height=100%/>
 
 </div>
+
+Acesse você mesmo(a):
+
+https://jobsnett.netlify.app/
 
 ------------
 
