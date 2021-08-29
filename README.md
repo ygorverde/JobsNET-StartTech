@@ -15,7 +15,7 @@
 
 ------------
 
-<h2>:iphone: Design responsivo e animações com React Lottie </h2>
+<h2> Responsivo e animações com React Lottie </h2>
 
 <div align='center'>
 
