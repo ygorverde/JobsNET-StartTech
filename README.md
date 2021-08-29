@@ -24,37 +24,30 @@
 </div>
 
 ------------
-## 🔖 Layouts
-Nos links abaixo você encontra o layout do projeto web e também do mobile. Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
 
-- [Layout Web](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web)
-- [Layout Mobile](https://www.figma.com/file/e33KvgUpFdunXxJjHnK7CG/Proffy-Mobile)
+## API REST
 
-------------
+A api foi construída utilizando Express e MongoDB.
+Também contamos com uma ferramenta de documentação de APIS, o Swagger.
+
+Confira mais sobre a nossa API:
+https://jobsnetapi.herokuapp.com/docs
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
-- [NodeJs](https://nodejs.org/en/ "NodeJs")
-- [Express](https://expressjs.com/ "Express")
-- [Expo-Cli](https://expo.io/tools#cli "Expo-Cli")
-- [React](https://reactjs.org/ "React")
-- [React Native](https://reactnative.dev/ "React Native")
+- [NodeJS](https://nodejs.org/en/ "NodeJs")
+- [ReactJS](https://expressjs.com/ "Express")
+- [Express](https://expo.io/tools#cli "Expo-Cli")
+- [MongoDB](https://reactjs.org/ "React")
 - [Typescript](https://www.typescriptlang.org/ "Typescript")
 
 ------------
 
 ## 💻 Sobre o projeto 
-O Proffy é uma plataforma de estudos online que ajuda pessoas a encontrarem professores online.
 
-## Dependências
-
-- [Express](https://expressjs.com/ "Express")
-- [KnexJS](http://knexjs.org/ "KnexJS")
-- [SQLite3](https://www.npmjs.com/package/sqlite3 "SQLite3")
-- [Axios](https://www.npmjs.com/package/axios "Axios")
-- [Expo Google Fonts](https://github.com/expo/google-fonts " [Expo Google Fonts]")
-
+A empresa JobsNET especialista em recrutamento e seleção de profissionais nas mais diversas áreas.
+O projeto tem como objetivo colocar em prática todo o conteúdo absorvido durante o curso.
 
 ------------
 ## 🤔 Como ajudar
@@ -72,8 +65,8 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 ------------
 
 ## Agradecimentos
-  - <a target="_blank" href="https://github.com/diego3g">Diego Fernandes</a>
-  
+  - <a target="_blank" href="https://ambevtech.com.br/start-tech/">StartTech AMBEV</a>
+  - <a target="_blank" href="https://www.gama.academy/">Gama Academy</a>
 <br>
   
 <footer align="center">
