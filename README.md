@@ -1,7 +1,7 @@
 # Jobs Net - StartTech
 
 <h1 align="center">
-    <img alt="JobsNet" title="JobsNet" src="https://user-images.githubusercontent.com/45312912/131263689-185b2697-13ca-4b7b-9bb2-4babd4ca2c23.png" />
+    <img alt="JobsNet" title="JobsNet" src="https://user-images.githubusercontent.com/45312912/131263689-185b2697-13ca-4b7b-9bb2-4babd4ca2c23.png" width="100%" height="50%"/>
 </h1>
 
 ![GitHub top language](https://img.shields.io/github/languages/count/ygorverde/JobsNET-StartTech) 
@@ -15,11 +15,9 @@
 
 ------------
 
-<h2>:iphone: MOBILE </h2>
-
 <div align='center'>
 
-<img src="https://user-images.githubusercontent.com/45312912/89743189-fd5dcb00-da76-11ea-9c96-2dbe36c147f6.png" width=100% height=100%/>
+<img src="https://user-images.githubusercontent.com/45312912/131263796-c28510d6-16e0-4713-8a9e-2789594d2ebc.png" width=100% height=100%/>
 
 </div>
 
