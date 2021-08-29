@@ -1,7 +1,7 @@
 # Jobs Net - StartTech
 
 <h1 align="center">
-    <img alt="JobsNet" title="JobsNet" src="https://user-images.githubusercontent.com/45312912/89740443-1490be80-da5f-11ea-8ac4-63f06cf3c9f3.png" />
+    <img alt="JobsNet" title="JobsNet" src="https://user-images.githubusercontent.com/45312912/131263590-e0fe0eff-a93a-4d3c-b1e9-8614b3c85f50.png" />
 </h1>
 
 ![GitHub top language](https://user-images.githubusercontent.com/45312912/131263590-e0fe0eff-a93a-4d3c-b1e9-8614b3c85f50.png) 
