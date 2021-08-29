@@ -1,7 +1,7 @@
 # Jobs Net - StartTech
 
 <h1 align="center">
-    <img alt="JobsNet" title="JobsNet" src="https://user-images.githubusercontent.com/45312912/131263689-185b2697-13ca-4b7b-9bb2-4babd4ca2c23.png" width="100%" height="50%"/>
+    <img alt="JobsNet" title="JobsNet" src="https://user-images.githubusercontent.com/45312912/131263689-185b2697-13ca-4b7b-9bb2-4babd4ca2c23.png" width=100% height=50%/>
 </h1>
 
 ![GitHub top language](https://img.shields.io/github/languages/count/ygorverde/JobsNET-StartTech) 
@@ -14,6 +14,8 @@
 </p>
 
 ------------
+
+<h2>:iphone: Design responsivo e animações com React Lottie </h2>
 
 <div align='center'>
 
